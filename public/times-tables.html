@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Multiplication</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+
+
+    
+<header class="header">
+    <div class="container">
+        <label>
+            <h1 id="title" class="header__title">Multiplication</h1>
+        </label>
+        <h1 id="message-1"></h1>     
+    </div>
+</header>
+
+
+
+<body id="main-content">
+        <!-- <div id="new-input">
+              <form>
+                <input placeholder="location">
+                <button>Search</button>  
+              </form>
+        </div> -->
+
+        <h2 id="incorrect"></h2>
+        <b id ="message-2"></b>
+                   
+        <h2 id="puzzle"></h2>
+
+   
+
+    <form method="POST" action="index.html">
+        <input type="hidden" name="activity" value="multiplication">
+        <input type="hidden" name="percentage" id="user">
+        <input type="hidden" name="totalQs" id="totalQs">
+        <input type="text" name="student" id="student" placeholder="Enter name"> 
+        <input type="submit" name="submit" id="submit-button">
+    </form>
+
+    
+</body>
+
+<footer>
+    <div>
+        <a id="home-link">Home</a>
+        <!-- <a id="times-tables-link">Times-Tables</a>
+        <a id="division-link">Division</a>
+        <a id="addition-subtraction-link">Addition and Subtraction</a>
+        <a id="addition-subtraction2-link">Addition and Subtraction 2</a>
+        <a id="times-divide-negatives-link">Times and Division with Negatives</a> -->
+    </div>
+
+    <script src="./js/cs-functions.js"></script>
+    <script src="./js/client-side-times-tables.js"></script> 
+</footer>
+
+</html>

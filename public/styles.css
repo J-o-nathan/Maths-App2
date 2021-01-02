@@ -1,0 +1,138 @@
+body {
+    color: #333333;
+    font-family: Arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+
+}
+
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    margin-bottom: 64px;
+    padding: 16px 0;
+    font-size: 10px;
+}
+
+header {
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 32px;
+}
+
+
+#message-1 {
+    color: rgb(26, 122, 7);
+}
+
+
+.main-content {
+    flex-grow: 0.8;
+}
+
+#puzzle {
+    color:  rgb(17, 17, 122)
+}
+
+.header__title{
+    color: rgb(17, 17, 122)
+}
+
+#intro-message {
+    color: rgb(139, 139, 148)
+}
+
+#message-3 {
+    color: rgb(66, 66, 71)
+}
+
+
+
+b {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    margin-bottom: 48px;
+}
+
+
+.button {
+    background: #74d48c;
+    border: none;
+    border-bottom: 2px solid #023d10;
+    margin-bottom: 8px;
+    margin-top: 2px;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: 0.5rem;
+    transition: background .3s ease, color .3s ease;
+}
+
+.button:hover {
+    background: #10661c;
+    cursor: pointer;
+}
+
+.button--text {
+    background: none;
+    border: none;
+    color: #aaa;
+}
+
+.button--text:hover {
+    background: none;
+    color: white;
+    text-decoration: underline;
+}
+
+a {
+    color:rgb(163, 9, 143);
+    font-size: small;
+    margin-right: 20px;
+}
+
+      
+  a:hover {
+      cursor: pointer;
+  }
+
+  #incorrect {
+      color: red;
+      margin-bottom: 24px;
+  }
+
+  #submit-button {
+    background: #00bcdd;
+    border: none;
+    border-bottom: 2px solid #023d10;
+    margin-bottom: 8px;
+    margin-top: 2px;
+    color: rgb(33, 35, 156);
+    font-size: 0.95rem;
+    font-weight: 200;
+    padding: 0.2rem;
+    transition: background .2s ease, color .2s ease;   
+  }
+
+  #submit-button:hover {
+    background: #0482a8;
+    cursor: pointer;
+}
+
