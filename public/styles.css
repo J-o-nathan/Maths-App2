@@ -1,4 +1,5 @@
 body {
+    background: linear-gradient(to bottom, rgb(205, 235, 252), rgb(255, 255, 255)) ;
     color: #333333;
     font-family: Arial;
     max-width: 650px;
@@ -6,7 +7,7 @@ body {
     padding: 0 16px;
     display: flex;
     flex-direction: column;
-    min-height: 80vh;
+    min-height: 100vh;
 
 }
 
@@ -52,6 +53,7 @@ h1 {
 }
 
 .header__title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(17, 17, 122)
 }
 
@@ -73,7 +75,7 @@ b {
 
 
 .button {
-    background: #74d48c;
+    background-color: rgb(65, 168, 182);
     border: none;
     border-bottom: 2px solid #023d10;
     margin-bottom: 8px;
@@ -86,7 +88,7 @@ b {
 }
 
 .button:hover {
-    background: #10661c;
+    background: #026197;
     cursor: pointer;
 }
 

@@ -110,7 +110,7 @@ window.addEventListener('keypress', (e) => {
                    localStorage.setItem('questionCount', JSON.stringify(questionCount))
                    setTimeout(()=>{
                     location.reload()
-                    }, 3000)
+                    }, 5000)
                }
                    
                if (answer.toString().length===1&&Number(keysTyped[0])==answer) {
@@ -140,7 +140,7 @@ window.addEventListener('keypress', (e) => {
                    localStorage.setItem('questionCount', JSON.stringify(questionCount))
                    setTimeout(()=>{
                     location.reload()
-                    }, 3000)
+                    }, 5000)
                     
                }
 
@@ -175,7 +175,7 @@ window.addEventListener('keypress', (e) => {
                    localStorage.setItem('questionCount', JSON.stringify(questionCount))
                    setTimeout(()=>{
                     location.reload()
-                    }, 3000)
+                    }, 5000)
                     
                }
 

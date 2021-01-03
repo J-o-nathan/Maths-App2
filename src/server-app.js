@@ -5,7 +5,6 @@ const chalk = require('chalk')
 const path = require('path')
 const express = require('express')
 const moment = require('moment')
-const heroku = require('heroku')
 
 //set up express
 
