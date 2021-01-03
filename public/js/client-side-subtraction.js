@@ -14,6 +14,9 @@ const $homeLink = document.querySelector('#home-link')
 
 $homeLink.addEventListener('click', function (e) {
     location.assign('/index.html')
+    localStorage.setItem('questionCount', JSON.stringify(questionCount=[]))
+    localStorage.setItem('correctRecord', JSON.stringify(questionCount=[]))
+
 })
 
 

@@ -32,6 +32,9 @@ const answer = valueOne*valueTwo
 
 $homeLink.addEventListener('click', function (e) {
     location.assign('/index.html')
+    localStorage.setItem('questionCount', JSON.stringify(questionCount=[]))
+    localStorage.setItem('correctRecord', JSON.stringify(questionCount=[]))
+
 })
 
 //generate question text function with a 1 second delay
