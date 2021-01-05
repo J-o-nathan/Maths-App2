@@ -50,12 +50,12 @@ h1 {
 }
 
 #puzzle {
-    color:  rgb(17, 17, 122)
+    color:  rgb(10, 10, 107)
 }
 
 .header__title{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(17, 17, 122)
+    color: rgb(10, 10, 107)
 }
 
 #intro-message {
@@ -76,7 +76,7 @@ b {
 
 
 .button {
-    background-color: rgb(65, 168, 182);
+    background-color: rgb(12, 130, 199);
     border: none;
     border-bottom: 2px solid #023d10;
     margin-bottom: 8px;
@@ -89,7 +89,7 @@ b {
 }
 
 .button:hover {
-    background: #026197;
+    background: rgb(10, 97, 148);
     cursor: pointer;
 }
 
@@ -122,20 +122,20 @@ a {
   }
 
   #submit-button {
-    background: #00bcdd;
+    background: rgb(12, 130, 199);
     border: none;
     border-bottom: 2px solid #023d10;
     margin-bottom: 8px;
     margin-top: 2px;
-    color: rgb(33, 35, 156);
+    color: rgb(10, 10, 107);
     font-size: 0.95rem;
     font-weight: 200;
-    padding: 0.2rem;
+    padding: 0.16rem;
     transition: background .2s ease, color .2s ease;   
   }
 
   #submit-button:hover {
-    background: #0482a8;
+    background: rgb(10, 97, 148);
     cursor: pointer;
 }
 
