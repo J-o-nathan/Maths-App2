@@ -122,20 +122,20 @@ a {
   }
 
   #submit-button {
-    background: rgb(12, 130, 199);
+    background: rgb(21, 158, 238);
     border: none;
     border-bottom: 2px solid #023d10;
     margin-bottom: 8px;
     margin-top: 2px;
     color: rgb(10, 10, 107);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: 200;
-    padding: 0.16rem;
+    padding: 0.18rem;
     transition: background .2s ease, color .2s ease;   
   }
 
   #submit-button:hover {
-    background: rgb(10, 97, 148);
+    background: rgb(31, 135, 196);
     cursor: pointer;
 }
 
