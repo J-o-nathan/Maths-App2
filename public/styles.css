@@ -85,11 +85,12 @@ b {
     font-size: 1.4rem;
     font-weight: 300;
     padding: 0.5rem;
-    transition: background .3s ease, color .3s ease;
+    transition: background .3s ease, all .3s ease;
 }
 
 .button:hover {
     background: rgb(10, 97, 148);
+    padding: 0.65rem;
     cursor: pointer;
 }
 
@@ -122,20 +123,20 @@ a {
   }
 
   #submit-button {
-    background: rgb(21, 158, 238);
+    background: rgb(18, 141, 212);
     border: none;
     border-bottom: 2px solid #023d10;
     margin-bottom: 8px;
     margin-top: 2px;
     color: rgb(10, 10, 107);
-    font-size: 0.9rem;
-    font-weight: 200;
+    font-size: 0.95rem;
+    font-weight: 600;
     padding: 0.18rem;
     transition: background .2s ease, color .2s ease;   
   }
 
   #submit-button:hover {
-    background: rgb(31, 135, 196);
+    background: rgb(17, 101, 150);
     cursor: pointer;
 }
 
