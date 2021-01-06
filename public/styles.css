@@ -130,8 +130,8 @@ a {
     margin-top: 2px;
     color: rgb(10, 10, 107);
     font-size: 0.95rem;
-    font-weight: 600;
-    padding: 0.18rem;
+    font-weight: 500;
+    padding: 0.16rem;
     transition: background .2s ease, color .2s ease;   
   }
 
