@@ -43,7 +43,7 @@ app.post('/index.html', function(request, response) {
         
         
         else {
-                fs.appendFileSync('record.csv', results.student + "," + results.activity + "," + results.percentage+"%" + "," + results.totalQs + "," + dateStamp + "\n")
+                fs.appendFileSync('../public/record.csv', results.student + "," + results.activity + "," + results.percentage+"%" + "," + results.totalQs + "," + dateStamp + "\n")
                 response.sendFile(path.join(publicDirectoryPath, '/index.html'))
             }
         
