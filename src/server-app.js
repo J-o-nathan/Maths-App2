@@ -43,7 +43,7 @@ app.post('/index.html', function(request, response) {
         
         
         else {
-                fs.appendFileSync('/index.html/record.csv', results.student + "," + results.activity + "," + results.percentage+"%" + "," + results.totalQs + "," + dateStamp + "\n")
+                fs.appendFileSync('https://maths-app2-jwh.herokuapp.com/record.csv', results.student + "," + results.activity + "," + results.percentage+"%" + "," + results.totalQs + "," + dateStamp + "\n")
                 response.sendFile(path.join(publicDirectoryPath, '/index.html'))
             }
         
