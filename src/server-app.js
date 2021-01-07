@@ -42,10 +42,10 @@ app.post('/index.html', function(request, response) {
                 }
         
         
-        else {
-                fs.appendFileSync('../public/record.csv', results.student + "," + results.activity + "," + results.percentage+"%" + "," + results.totalQs + "," + dateStamp + "\n")
+        //else {
+                //fs.appendFileSync('../public/record.csv', results.student + "," + results.activity + "," + results.percentage+"%" + "," + results.totalQs + "," + dateStamp + "\n")
                 //response.sendFile(path.join(publicDirectoryPath, '/record.csv'))
-            }
+        //    }
         
         })
  
