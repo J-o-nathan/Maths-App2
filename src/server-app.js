@@ -38,7 +38,7 @@ app.post('/index.html', function(request, response) {
         
         if (results.totalQs==0 || results.student==='') {
                 console.log('Missing Data, No action on logbook')
-                response.sendFile(path.join(publicDirectoryPath, `/${request.body.pageUrl}`))
+                response.redirect(`https://maths-app2-jwh.herokuapp.com/${request.body.pageUrl}`)
                 }
         
         
