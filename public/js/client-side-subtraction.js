@@ -180,8 +180,8 @@ window.addEventListener('keypress', (e) => {
        
                if (answer.toString().length===1&&Number(keysTyped[0])!==answer) {
                    $messageTitle.textContent = 'Incorrect'
-                   $messageIncorrect.textContent = `*${valueOne} - ${valueTwo} does not equal ${keysTyped[0]}` 
-                   $messageOne.textContent = `${valueOne} - ${valueTwo} = ${answer}`
+                   $messageOne.textContent = `${valueOne} - ${valueTwo} = ${keysTyped[0]}` 
+                   $messageIncorrect.textContent = `Solution: ${valueOne} - ${valueTwo} = ${answer}`
                    questionCount.push('I')
                    localStorage.setItem('questionCount', JSON.stringify(questionCount))
                    setTimeout(()=>{
@@ -210,8 +210,8 @@ window.addEventListener('keypress', (e) => {
 
                else if (answer.toString().length===2&&keysTyped.length===2&&(10*Number(keysTyped[0])+Number(keysTyped[1]))!==answer) {
                    $messageTitle.textContent = 'Incorrect'
-                   $messageIncorrect.textContent = `*${valueOne} - ${valueTwo} does not equal ${keysTyped[0]}${keysTyped[1]}`
-                   $messageOne.textContent = `${valueOne} - ${valueTwo} = ${answer}` 
+                   $messageOne.textContent = `${valueOne} - ${valueTwo} = ${keysTyped[0]}${keysTyped[1]}`
+                   $messageIncorrect.textContent = `Solution: ${valueOne} - ${valueTwo} = ${answer}` 
                    questionCount.push('I')
                    localStorage.setItem('questionCount', JSON.stringify(questionCount))
                    setTimeout(()=>{
