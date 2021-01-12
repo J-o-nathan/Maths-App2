@@ -1,4 +1,4 @@
-console.log('client side addition and subtraction js file has loaded')
+console.log('client side addition js file has loaded')
 
 //elements from the page
 
@@ -71,22 +71,22 @@ $messageIncorrect.textContent = ''
 const generateQuestion = function (wait) {
     if (questionCount.length<1 && answer<10) {
         setTimeout(() => {
-            $messageOne.textContent = `${valueOne}  +  ${valueTwo} = _`
+            $messageOne.textContent = `${valueOne}  +  ${valueTwo} = *`
     }, wait)
 }
 
     else if (questionCount.length<1 && answer>9) {
         setTimeout(() => {
-            $messageOne.textContent = `${valueOne}  +  ${valueTwo} = _ _`
+            $messageOne.textContent = `${valueOne}  +  ${valueTwo} = **`
     }, wait)
     }
 
     else if (questionCount.length>0 && answer<10) {
-        $messageOne.textContent = `${valueOne}  +  ${valueTwo} = _`
+        $messageOne.textContent = `${valueOne}  +  ${valueTwo} = *`
     }
 
     else {
-        $messageOne.textContent = `${valueOne}  +  ${valueTwo} = _ _`
+        $messageOne.textContent = `${valueOne}  +  ${valueTwo} = **`
     }
 }
 

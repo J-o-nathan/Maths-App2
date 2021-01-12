@@ -5,7 +5,7 @@ const $timesTablesLink = document.querySelector('#times-tables-link')
 const $divisionLink = document.querySelector('#division-link')
 const $additionLink = document.querySelector('#addition-link')
 const $subtractionLink = document.querySelector('#subtraction-link')
-
+const $advancedLink = document.querySelector('#advanced-link')
 
 //setting up links between the pages
 
@@ -29,4 +29,6 @@ $subtractionLink.addEventListener('click', function (e) {
     location.assign('subtraction.html') })
 
 
-
+$advancedLink.addEventListener('click', function (e) {
+    location.assign('advanced.html')
+})

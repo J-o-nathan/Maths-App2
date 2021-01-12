@@ -48,12 +48,12 @@ const questionMessageMultiplication = function (wait) {
     
             const questionMessageCount = function (a) {
                 if (a < 10) {
-                 $messageOne.textContent = `${valueOne} x ${valueTwo} = _`
+                 $messageOne.textContent = `${valueOne} x ${valueTwo} = *`
              }
              else if (a < 100) {
-                 $messageOne.textContent = `${valueOne} x ${valueTwo} = _ _`
+                 $messageOne.textContent = `${valueOne} x ${valueTwo} = **`
              }
-             else {$messageOne.textContent = `${valueOne} x ${valueTwo} = _ _ _`} 
+             else {$messageOne.textContent = `${valueOne} x ${valueTwo} = ***`} 
              }
              
              questionMessageCount(answer)
@@ -66,12 +66,12 @@ const questionMessageMultiplication = function (wait) {
     else {
           const questionMessageCount = function (a) {
                 if (a < 10) {
-                 $messageOne.textContent = `${valueOne} x ${valueTwo} = _`
+                 $messageOne.textContent = `${valueOne} x ${valueTwo} = *`
              }
              else if (a < 100) {
-                 $messageOne.textContent = `${valueOne} x ${valueTwo} = _ _`
+                 $messageOne.textContent = `${valueOne} x ${valueTwo} = **`
              }
-             else {$messageOne.textContent = `${valueOne} x ${valueTwo} = _ _ _`} 
+             else {$messageOne.textContent = `${valueOne} x ${valueTwo} = ***`} 
              }
              
              questionMessageCount(answer)  

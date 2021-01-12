@@ -42,6 +42,7 @@ h1 {
 
 #message-1 {
     color: rgb(26, 122, 7);
+    font-family: monospace;
 }
 
 
@@ -66,7 +67,11 @@ h1 {
     color: rgb(66, 66, 71)
 }
 
-
+#message-2 {
+    color: rgb(10, 10, 107);
+    font-family: monospace;
+    font-size: 20px;
+}
 
 b {
     color: rgb(49, 49, 49);
@@ -120,6 +125,9 @@ a {
   #incorrect {
       color: red;
       margin-bottom: 24px;
+      font-family: monospace;
+      font-weight: 900;
+      font-size: 36px;
   }
 
   #submit-button {
@@ -140,3 +148,12 @@ a {
     cursor: pointer;
 }
 
+#advanced-button {
+    background-color: rgb(12, 130, 199);
+}
+
+#advanced-button:hover {
+    background: rgb(100, 103, 105);
+    padding: 0.65rem;
+    cursor: pointer;
+}

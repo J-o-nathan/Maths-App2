@@ -71,22 +71,22 @@ $messageIncorrect.textContent = ''
 const generateQuestion = function (wait) {
     if (questionCount.length<1 && answer<10) {
         setTimeout(() => {
-            $messageOne.textContent = `${valueThree} \xF7 ${valueOne} = _`
+            $messageOne.textContent = `${valueThree} \xF7 ${valueOne} = *`
     }, wait)
 }
 
     else if (questionCount.length<1 && answer>9) {
         setTimeout(() => {
-            $messageOne.textContent = `${valueThree} \xF7 ${valueOne} = _ _`
+            $messageOne.textContent = `${valueThree} \xF7 ${valueOne} = **`
     }, wait)
     }
 
     else if (questionCount.length>0 && answer<10) {
-        $messageOne.textContent = `${valueThree} \xF7 ${valueOne} = _`
+        $messageOne.textContent = `${valueThree} \xF7 ${valueOne} = *`
     }
 
     else {
-        $messageOne.textContent = `${valueThree} \xF7 ${valueOne} = _ _`
+        $messageOne.textContent = `${valueThree} \xF7 ${valueOne} = **`
     }
 }
 
