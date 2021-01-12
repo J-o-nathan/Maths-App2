@@ -2,13 +2,13 @@ body {
     color: #333333;
     font-family: Arial;
     max-width: 650px;
-    margin: 0 auto;
+    margin-left: 360px;
     padding: 0 16px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: url("./img/g.jpg");
-    background-size: cover;
+    background: url("./img/k.png");
+    background-size:cover;
 
 }
 
@@ -18,12 +18,12 @@ body {
     font-family: Arial;
     max-width: 650px;
     margin: 0 auto;
-    margin-left: 250px;
+    margin-left: 360px;
     padding: 0 16px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: url("./img/h.jpg");
+    background: url("./img/k.png");
     background-size: cover;
 
 }
@@ -39,14 +39,14 @@ footer {
 }
 
 #index-header {
-    margin-top: 130px;
-    margin-bottom: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
 header {
-    margin-top: 200px;
-    margin-bottom: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 header a {
@@ -57,7 +57,7 @@ header a {
 
 
 h1 {
-    font-size: 64px;
+    font-size: 72px;
     margin-bottom: 32px;
 }
 
@@ -65,6 +65,7 @@ h1 {
 #message-1 {
     color: rgb(26, 122, 7);
     font-family: monospace;
+    font-size: 60px;
 }
 
 
@@ -76,12 +77,13 @@ h1 {
     flex-grow: 0.8;
     background: url("./img/f.jpg");
     background-size: cover;
+    margin-left: 320px;
 
 }
 
 #header-advanced {
-    margin-top: 80px;
-    margin-bottom: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #puzzle {
@@ -96,7 +98,8 @@ h1 {
 #index-title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(10, 10, 107);
-    font-size: 100px;
+    font-size: 80px;
+    font-weight: 800;
     
 }
 
@@ -122,21 +125,21 @@ b {
 
 
 .button {
-    background-color: rgb(0, 49, 243);
+    background-color: rgb(16, 143, 194);
     border: none;
     border-bottom: 2px solid #023d10;
     margin-bottom: 8px;
     margin-top: 2px;
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 300;
-    padding: 0.5rem;
+    padding: 0.4rem;
     transition: background .3s ease, all .3s ease;
 }
 
 .button:hover {
-    background: rgb(28, 56, 170);
-    padding: 0.7rem;
+    background: rgb(2, 92, 128);
+    padding: 0.55rem;
     cursor: pointer;
 }
 
@@ -191,8 +194,8 @@ a {
 
 
 #advanced-link:hover {
-    background: rgb(100, 103, 105);
-    padding: 0.65rem;
+    background: rgb(136, 136, 136);
+    padding: 0.5rem;
     cursor: pointer;
 }
 
