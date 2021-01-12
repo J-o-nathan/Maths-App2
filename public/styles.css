@@ -7,7 +7,23 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: url("./img/e.jpg");
+    background: url("./img/g.jpg");
+    background-size: cover;
+
+}
+
+
+#index-body {
+    color: #333333;
+    font-family: Arial;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-left: 250px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url("./img/h.jpg");
     background-size: cover;
 
 }
@@ -22,8 +38,14 @@ footer {
     font-size: 10px;
 }
 
+#index-header {
+    margin-top: 130px;
+    margin-bottom: 12px;
+}
+
+
 header {
-    margin-top: 4px;
+    margin-top: 200px;
     margin-bottom: 12px;
 }
 
@@ -57,21 +79,33 @@ h1 {
 
 }
 
-#puzzle {
-    color:  rgb(10, 10, 107)
+#header-advanced {
+    margin-top: 80px;
+    margin-bottom: 12px;
 }
 
-.header__title{
+#puzzle {
+    color:  rgb(10, 10, 107);
+}
+
+.header__title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(10, 10, 107)
+    color: rgb(10, 10, 107);
+}
+
+#index-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(10, 10, 107);
+    font-size: 100px;
+    
 }
 
 #intro-message {
-    color: rgb(139, 139, 148)
+    color: rgb(139, 139, 148);
 }
 
 #message-3 {
-    color: rgb(66, 66, 71)
+    color: rgb(66, 66, 71);
 }
 
 #message-2 {
@@ -88,21 +122,21 @@ b {
 
 
 .button {
-    background-color: rgb(12, 130, 199);
+    background-color: rgb(0, 49, 243);
     border: none;
     border-bottom: 2px solid #023d10;
     margin-bottom: 8px;
     margin-top: 2px;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 300;
     padding: 0.5rem;
     transition: background .3s ease, all .3s ease;
 }
 
 .button:hover {
-    background: rgb(10, 97, 148);
-    padding: 0.65rem;
+    background: rgb(28, 56, 170);
+    padding: 0.7rem;
     cursor: pointer;
 }
 
@@ -138,31 +172,30 @@ a {
   }
 
   #submit-button {
-    background: rgb(18, 141, 212);
+    background: rgb(67, 136, 238);
     border: none;
     border-bottom: 2px solid #023d10;
     margin-bottom: 8px;
     margin-top: 2px;
-    color: rgb(10, 10, 107);
+    color: rgb(255, 255, 255);
     font-size: 0.95rem;
     font-weight: 500;
-    padding: 0.16rem;
-    transition: background .2s ease, color .2s ease;   
+    padding: 0.15rem;
+    transition: background .3s ease, color .3s ease;   
   }
 
   #submit-button:hover {
-    background: rgb(17, 101, 150);
+    background: rgb(31, 73, 214);
     cursor: pointer;
 }
 
-#advanced-button {
-    background-color: rgb(12, 130, 199);
-}
 
-#advanced-button:hover {
+#advanced-link:hover {
     background: rgb(100, 103, 105);
     padding: 0.65rem;
     cursor: pointer;
 }
 
-
+#index-footer{
+    margin-top: 30px;
+}
