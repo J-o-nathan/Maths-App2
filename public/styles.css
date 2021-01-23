@@ -133,13 +133,13 @@ b {
     color: white;
     font-size: 1.4rem;
     font-weight: 300;
-    padding: 0.4rem;
+    padding: 0.6rem;
     transition: background .3s ease, all .3s ease;
 }
 
 .button:hover {
     background: rgb(2, 92, 128);
-    padding: 0.55rem;
+    padding: 0.75rem;
     cursor: pointer;
 }
 
@@ -195,10 +195,11 @@ a {
 
 #advanced-link:hover {
     background: rgb(136, 136, 136);
-    padding: 0.5rem;
+    padding: 0.75rem;
     cursor: pointer;
 }
 
 #index-footer{
     margin-top: 30px;
+    color:#888888
 }
