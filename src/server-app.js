@@ -21,7 +21,7 @@ app.use(express.urlencoded())
 app.use(express.json())
 
 
-app.post('/index.html', function(request, response) {
+app.post('/input', function(request, response) {
         console.log(request.body)
             
                 
