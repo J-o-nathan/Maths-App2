@@ -38,13 +38,13 @@ app.post('/input', function(request, response) {
         
         if (results.totalQs==0 || results.student==='') {
                 console.log('Missing Data, No action on logbook')
-                response.redirect(`https://maths-app2-jwh.herokuapp.com/${request.body.pageUrl}`)
+                response.sendFile(path.join(publicDirectoryPath, `/${request.body.pageUrl}`))
                 }
         
         
         else {
                 fs.appendFileSync(`${publicDirectoryPath}/record.csv`, results.student + "," + results.activity + "," + results.percentage+"%" + "," + results.totalQs + "," + dateStamp + "\n")
-                response.redirect('https://maths-app2-jwh.herokuapp.com/')
+                response.sendFile(path.join(publicDirectoryPath, '/index.html'))
             }
         
         })
