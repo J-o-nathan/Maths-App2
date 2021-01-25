@@ -1,3 +1,17 @@
+
+@media (max-width: 1000px) {
+
+    #index-header,
+    header,
+    #header-advanced {
+        margin-top: 180px;
+    }
+}
+
+
+/* NORMAL CSS */
+
+
 body {
     color: #333333;
     font-family: Arial;
@@ -206,13 +220,3 @@ a {
 }
 
 
-@media (max-width: 960px) {
-
-    #index-header,
-    header,
-    #header-advanced {
-        margin-top: 120px;
-    }
-
-
-}
