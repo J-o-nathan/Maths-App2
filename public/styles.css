@@ -2,7 +2,7 @@ body {
     color: #333333;
     font-family: Arial;
     max-width: 650px;
-    margin-left: 360px;
+    margin-left: 300px;
     padding: 0 16px;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@ body {
     font-family: Arial;
     max-width: 650px;
     margin: 0 auto;
-    margin-left: 360px;
+    margin-left: 300px;
     padding: 0 16px;
     display: flex;
     flex-direction: column;
@@ -77,7 +77,7 @@ h1 {
     flex-grow: 0.8;
     background: url("./img/f.jpg");
     background-size: cover;
-    margin-left: 320px;
+    margin-left: 300px;
 
 }
 
