@@ -1,0 +1,227 @@
+
+@media (max-width: 900px) {
+
+    #index-header,
+    header,
+    #header-advanced {
+        margin-top: 55%;
+        padding-top: 20%;
+    }
+
+    body, 
+    #index-body {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+}
+
+
+/* NORMAL CSS */
+
+
+body {
+    color: #333333;
+    font-family: Arial;
+    max-width: 650px;
+    margin-left: 35%;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 98vh;
+    background: url("./img/k.png");
+
+}
+
+
+#index-body {
+    color: #333333;
+    font-family: Arial;
+    max-width: 650px;
+    margin-top: 0 auto;
+    margin-left: 35%;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 98vh;
+    background: url("./img/k.png");
+
+}
+
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    font-size: 10px;
+}
+
+#index-header {
+    margin-top: 25%;
+    margin-bottom: 0px;
+}
+
+
+header {
+    margin-top: 25%;
+    margin-bottom: 0px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+
+h1 {
+    font-size: 72px;
+    margin-bottom: 32px;
+}
+
+
+#message-1 {
+    color: rgb(26, 122, 7);
+    font-family: monospace;
+    font-size: 60px;
+}
+
+
+.main-content {
+    flex-grow: 0.8;
+    
+}
+
+#main-content-advanced {
+    flex-grow: 0.8;
+    background: url("./img/f.jpg");
+    background-size: cover;
+    margin-left: 320px;
+
+}
+
+#header-advanced {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#puzzle {
+    color:  rgb(10, 10, 107);
+}
+
+.header__title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(10, 10, 107);
+}
+
+#index-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(10, 10, 107);
+    font-size: 80px;
+    font-weight: 800;
+    
+}
+
+#intro-message {
+    color: rgb(139, 139, 148);
+}
+
+#message-3 {
+    color: rgb(66, 66, 71);
+}
+
+#message-2 {
+    color: rgb(10, 10, 107);
+    font-family: monospace;
+    font-size: 20px;
+}
+
+b {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    margin-bottom: 48px;
+}
+
+
+.button {
+    background-color: rgb(16, 143, 194);
+    border: none;
+    border-bottom: 2px solid #023d10;
+    margin-bottom: 8px;
+    margin-top: 2px;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: 0.6rem;
+    transition: background .3s ease, all .3s ease;
+}
+
+.button:hover {
+    background: rgb(2, 92, 128);
+    padding: 0.75rem;
+    cursor: pointer;
+}
+
+.button--text {
+    background: none;
+    border: none;
+    color: #aaa;
+}
+
+.button--text:hover {
+    background: none;
+    color: white;
+    text-decoration: underline;
+}
+
+a {
+    color:rgb(163, 9, 143);
+    font-size: small;
+    margin-right: 20px;
+}
+
+      
+  a:hover {
+      cursor: pointer;
+  }
+
+  #incorrect {
+      color: red;
+      margin-bottom: 24px;
+      font-family: monospace;
+      font-weight: 900;
+      font-size: 36px;
+  }
+
+  #submit-button {
+    background: rgb(67, 136, 238);
+    border: none;
+    border-bottom: 2px solid #023d10;
+    margin-bottom: 8px;
+    margin-top: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 0.15rem;
+    transition: background .3s ease, color .3s ease;   
+  }
+
+  #submit-button:hover {
+    background: rgb(31, 73, 214);
+    cursor: pointer;
+}
+
+
+#advanced-link:hover {
+    background: rgb(136, 136, 136);
+    padding: 0.75rem;
+    cursor: pointer;
+}
+
+#index-footer{
+    margin-top: 30px;
+    color:#888888
+}
+
+
